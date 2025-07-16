@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <P>Tente abrir esse site em varios dispositivos diferetnes ou simplesmente aumente e diminua o tamanho do seu navegador</P>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+   <!-- <audio src="Audio/Bring It Together - Telecasted.mp3" controls autoplay></audio>-->
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Audio/Bring It Together - Telecasted.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador nao consegue reproduzir o audio <a href="Audio/Bring It Together - Telecasted.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio><!--Sempre lembrar da ordem a ordem -->
+    
+</body>
+</html>
