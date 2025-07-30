@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead{
+background-color: rgb(85, 82, 82);
+border: 1px solid black ;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+.media{
+    background-color: rgb(85, 82, 82);
+    color: white;
+    text-align: left;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.medianum{
+    background-color: rgb(85, 82, 82);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.materia{
+    text-align: left;
+}
